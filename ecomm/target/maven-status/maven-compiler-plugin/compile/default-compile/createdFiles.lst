@@ -1,0 +1,13 @@
+com/example/ecomm/repository/categoryREPO.class
+com/example/ecomm/service/CategoryService.class
+com/example/ecomm/repository/productREPO.class
+com/example/ecomm/controller/CategoryController.class
+com/example/ecomm/controller/ProductVariantsController.class
+com/example/ecomm/EcommApplication.class
+com/example/ecomm/entity/ProductVariants.class
+com/example/ecomm/service/ProductService.class
+com/example/ecomm/controller/ProductController.class
+com/example/ecomm/entity/Category.class
+com/example/ecomm/service/ProductVariantsService.class
+com/example/ecomm/entity/Product.class
+com/example/ecomm/repository/productVariantREPO.class
