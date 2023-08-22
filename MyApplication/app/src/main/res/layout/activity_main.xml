@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/searchEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Search "-->
+<!--        android:inputType="text"-->
+<!--        android:imeOptions="action_search"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginHorizontal="16dp" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/searchButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Search"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="8dp" />-->
+
+<!--    &lt;!&ndash; RecyclerView and other components... &ndash;&gt;-->
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="16dp"-->
+<!--        tools:layout_editor_absoluteX="0dp"-->
+<!--        tools:layout_editor_absoluteY="28dp" />-->
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:drawableStart="@drawable/ic_search"
+        android:drawablePadding="8dp"
+        android:hint="Search products..."
+        android:imeOptions="action_search"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="PHONES"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="ACCESORIES"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#3F51B5"
+        android:text="ALL"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="110dp"
+        android:layout_height="98dp"
+        app:srcCompat="@android:drawable/stat_sys_headset"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="118dp"
+        android:layout_height="93dp"
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="108dp"
+        android:layout_height="112dp"
+        app:srcCompat="@android:drawable/stat_notify_sdcard"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="HEADPHONES"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="CAMERA"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#03A9F4"
+        android:text="PHONE"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
